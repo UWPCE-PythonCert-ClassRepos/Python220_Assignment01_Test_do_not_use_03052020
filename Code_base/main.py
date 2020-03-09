@@ -133,7 +133,7 @@ def add_status(user_id, status_id, status_text, status_collection):
     '''
     pass
 
-def update_status(status_id, status_text):
+def update_status(status_id, user_id, status_text, status_collection):
     '''
     Updates the values of an existing status_id
 
@@ -143,12 +143,23 @@ def update_status(status_id, status_text):
     '''
     pass
 
-def delete_status(status_id):
+def delete_status(status_id, status_collection):
     '''
     Deletes a status_id from user_collection.
 
     Requirements:
     - Returns False if there are any errors (such as status_id not found)
     - Otherwise, it returns True.
+    '''
+    pass
+
+def search_status(status_id, status_collection):
+    '''
+    Searches for a status in status_collection
+
+    Requirements:
+    - If the status is found, returns the corresponding
+    UserStatus instance.
+    - Otherwise, it returns None.
     '''
     pass

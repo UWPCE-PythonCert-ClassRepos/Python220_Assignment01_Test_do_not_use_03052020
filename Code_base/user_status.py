@@ -19,7 +19,6 @@ class UserStatusCollection():
         Adds a new status for a given user.
         Requirements:
         - status_id cannot already exist.
-        - user_id must exist in the user collection.
         - status_text cannot be empty.
         - Method returns False if there is any error.
         - Otherwise, it returns True.
